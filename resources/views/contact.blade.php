@@ -13,6 +13,6 @@
     <p><a href="<?php echo route('welcome') ?>">Ir a página de inicio</a></p>
     <p><a href="<?php echo route('products.show', ['id' => 999]) ?>">Ir a producto</a></p>
     <p><a href="<?php echo route('products.show.comments', ['id' => 999]) ?>">Ir a comentarios del producto</a></p>
-    <p><a href="<?php echo route('products.comments.by-type', ['id' => 999]) ?>">Ir a comentarios por tipo</a></p>
+    <p><a href="<?php echo route('products.comments.by_type', ['id' => 999]) ?>">Ir a comentarios por tipo</a></p>
 </body>
 </html>
