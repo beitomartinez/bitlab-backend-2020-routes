@@ -5,7 +5,7 @@ use App\Http\Controllers\StoreController;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome')->name('welcome');
-Route::view('contacto', 'contact');
+Route::view('contacto', 'contact')->name('contact-page');
 
 Route::get('person', 'PersonController@show');
 
